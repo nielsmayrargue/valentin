@@ -99,7 +99,6 @@ $(document).ready(function(){
     if(nx == -1 || nx == w/cw || ny == -1 || ny == h/cw || check_collision(nx, ny, snake_array))
     {
       //launch modal
-      $('body').hide();
       //restart game
       init();
       //Lets organize the code a bit now.

@@ -1,3 +1,15 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#wrapper {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: image-url('home.jpg');
+  background-attachment: fixed;
+  margin-right: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  background-size: cover !important;
+  position: relative;
+}
