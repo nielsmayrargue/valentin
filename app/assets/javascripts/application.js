@@ -98,6 +98,8 @@ $(document).ready(function(){
     //Now if the head of the snake bumps into its body, the game will restart
     if(nx == -1 || nx == w/cw || ny == -1 || ny == h/cw || check_collision(nx, ny, snake_array))
     {
+      //launch modal
+      $('body').hide();
       //restart game
       init();
       //Lets organize the code a bit now.
